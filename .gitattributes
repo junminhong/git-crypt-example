@@ -1,3 +1,5 @@
-secrets.txt filter=git-crypt diff=git-crypt
 .gitattributes !filter !diff
 
+a_service/main.txt    filter=git-crypt-A   diff=git-crypt-A
+b_service/main.txt    filter=git-crypt-B   diff=git-crypt-B
+c_service/main.txt    filter=git-crypt-C   diff=git-crypt-C
